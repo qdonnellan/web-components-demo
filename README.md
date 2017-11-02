@@ -1,4 +1,5 @@
 # Web Components Demo
+This is just a demonstration of a very simple implementation of native Custom HTML Elements. When installed, adding the `<hello-world></hello-world>` to web page should load the content `<p>Hello World, this is so simple!</p>`
 
 ## Usage
 To use this web component in your page, you should:
