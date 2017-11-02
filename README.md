@@ -10,7 +10,7 @@ npm install git@github.com:qdonnellan/web-components-demo.git
 
 ### 2. Add the output .js to your head:
 
-```
+```html
 <!DOCTYPE html>
 
 <html lang="en">
@@ -24,7 +24,7 @@ npm install git@github.com:qdonnellan/web-components-demo.git
 
 ### 3. Add the web component where desired in the body of your HTML page:
 
-```
+```html
 <body>
     <hello-world></hello-world>
 </body>
@@ -32,7 +32,7 @@ npm install git@github.com:qdonnellan/web-components-demo.git
 
 Thus, a simplified, complete page that consumes this web component would look like:
 
-```
+```html
 <!DOCTYPE html>
 
 <html lang="en">
