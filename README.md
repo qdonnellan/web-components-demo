@@ -7,6 +7,7 @@ To use this web component in your page, you should:
 ### 1. Install this repo as an npm package:
 ```
 npm install git@github.com:qdonnellan/web-components-demo.git
+npm run build
 ```
 
 ### 2. Add the output .js to your head:
@@ -17,7 +18,7 @@ npm install git@github.com:qdonnellan/web-components-demo.git
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <script type="text/javascript" src="node_modules/web-components-demo/dist/web-components-demo.js"></script>
+        <script type="text/javascript" src="node_modules/web-components-demo/dist/index.js"></script>
     </head>
     ...
 </html>
@@ -39,10 +40,21 @@ Thus, a simplified, complete page that consumes this web component would look li
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <script type="text/javascript" src="node_modules/web-components-demo/dist/web-components-demo.js"></script>
+        <script type="text/javascript" src="node_modules/web-components-demo/dist/index.js"></script>
     </head>
     <body>
         <hello-world></hello-world>
     </body>
 </html>
 ```
+
+## Using ES6 imports
+If you're building a React app, you can use the following import statement
+
+```js
+import HelloWorld from 'web-components-demo';
+
+...
+```
+
+Currently, just importing the file is sufficient to install the <hellow-world> element as it happens on script load.
