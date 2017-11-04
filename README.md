@@ -18,7 +18,7 @@ npm run build
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <script type="text/javascript" src="node_modules/web-components-demo/dist/index.js"></script>
+        <script type="text/javascript" src="node_modules/web-components-demo/dist/bundle.js"></script>
     </head>
     ...
 </html>
@@ -40,7 +40,7 @@ Thus, a simplified, complete page that consumes this web component would look li
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <script type="text/javascript" src="node_modules/web-components-demo/dist/index.js"></script>
+        <script type="text/javascript" src="node_modules/web-components-demo/dist/bundle.js"></script>
     </head>
     <body>
         <hello-world></hello-world>
