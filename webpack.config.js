@@ -1,10 +1,10 @@
 const path = require('path');
 
 const config = {
-    entry: './src/test.js',
+    entry: './index.js',
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "web-components-demo.js",
+        filename: "bundle.js",
         libraryTarget: 'umd'
     }
 }
